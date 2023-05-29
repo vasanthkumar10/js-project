@@ -1,0 +1,23 @@
+.movie {
+  width: max-content;
+  cursor: pointer;
+}
+
+.seat {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.seatWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
